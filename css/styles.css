@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: black;
+}
+
+.text-blood {
+  color: #F84444;
+}
+
+.main {
+  background: center / cover no-repeat url("../img/main.jpg");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 70px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.main-subTitle {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+
+/*info*/
+.info {
+  display: flex;
+  margin: auto;
+}
+
+.info-block {
+  width: 380px;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.info-block p:nth-child(1) {
+  font-weight: 900;
+  font-size: 100px;
+  letter-spacing: -3.5px;
+}
+
+.info_red {
+  border-color: #F84444;
+  background: rgba(248, 68, 68, 0.2);
+}
+
+.info_red .info-block {
+  border-color: #F84444;
+}
+
+.info_red .info-block p:nth-child(1) {
+  color: #F84444;
+}
+
+/*video*/
+.video-title {
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px auto;
+}
+
+.video-block {
+  display: flex;
+  justify-content: center;
+}
+
+.video-block > * {
+  margin: 0 24px;
+}
+
+/*killed*/
+.killed-title {
+  font-weight: 900;
+  font-size: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 60px auto;
+}
+
+.killed {
+  width: 280px;
+}
+
+.killed-caption {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.killed-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.killed-count {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.killed-total {
+  width: 1154px;
+  height: 259px;
+  margin: auto;
+
+  background: url("../img/huilo.jpg");
+}
