@@ -36,8 +36,8 @@ body {
 
 /*info*/
 .info {
-  display: flex;
-  margin: auto;
+  display: inline-flex;
+  margin: 0 auto;
 }
 
 .info-block {
@@ -70,6 +70,19 @@ body {
 
 .info_red .info-block p:nth-child(1) {
   color: #F84444;
+}
+/**/
+.info_yellow {
+   border-color: #FFD600;
+   background: rgba(248, 68, 68, 0.2);
+ }
+
+.info_yellow .info-block {
+  border-color: #FFD600;
+}
+
+.info_yellow .info-block p:nth-child(1) {
+  color: #FFD600;
 }
 
 /*video*/
@@ -129,7 +142,97 @@ body {
 .killed-total {
   width: 1154px;
   height: 259px;
-  margin: auto;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
 
   background: url("../img/huilo.jpg");
+}
+
+.killed-total .text-blood {
+  font-weight: 900;
+  font-size: 80px;
+}
+
+/*stopWar*/
+.stopWar {
+  background: #0085FF;
+  padding: 100px 0;
+}
+
+.stopWar-title {
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.stopWar-subTitle {
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  margin: 80px 0 25px;
+  color: #FFD600;
+  text-transform: uppercase;
+}
+
+/*helpUs*/
+.helpUs {
+  background: #FFD600;
+  padding: 130px 0 100px;
+}
+
+.helpUs-title {
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+
+  color: #1E1E1E;
+}
+
+.helpUs-btns {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  color: #1E1E1E;
+}
+
+.helpUs-btn {
+  width: 375px;
+  height: 110px;
+  font-size: 24px;
+  border: 1px solid black;
+  background: transparent;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+/**/
+.socials-title {
+  margin-top: 235px;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #1E1E1E;
+}
+
+.socials {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.social {
+  margin: 5px;
 }
