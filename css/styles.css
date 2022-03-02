@@ -303,7 +303,6 @@ body {
 .helpUs-btn {
   max-width: 375px;
   width: 100%;
-  min-height: 110px;
   font-size: 1.5rem;
   border: 2px solid black;
   background: transparent;
@@ -311,10 +310,11 @@ body {
   text-transform: uppercase;
   padding: 30px 20px;
   cursor: pointer;
+  text-align: center;
 }
 
 .helpUs-btn:hover {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.49);
 }
 
 /* social block */
@@ -351,6 +351,11 @@ body {
 
 .social.fb {
   background: url('/img/facebook.svg') center center no-repeat;
+  background-size: auto;
+}
+
+.social.tt {
+  background: url('/img/tiktok.svg') center center no-repeat;
   background-size: auto;
 }
 
@@ -484,10 +489,6 @@ body {
 
   .helpUs-btns {
     flex-direction: column;
-  }
-
-  .helpUs-btn {
-    min-height: 80px;
   }
 
   .socials-title {
