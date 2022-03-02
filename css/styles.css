@@ -1,4 +1,4 @@
-:root{
+:root {
   font-size: 16px;
 }
 
@@ -79,17 +79,17 @@ body {
   box-sizing: border-box;
 }
 
-.info-block + .info-block {
-  border-left-width: 0;
-}
-
 .info-block p + p {
   margin-top: 20px;
 }
 
 .info-block p:nth-child(1) {
   font-weight: 900;
-  font-size: 6.25rem;
+  font-size: 5.25rem;
+  min-height: 5.25rem;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
   line-height: .9;
   letter-spacing: -3.5px;
 }
@@ -121,6 +121,15 @@ body {
 
 .info_yellow .info-block p:nth-child(1) {
   color: #FFD600;
+}
+
+.info_yellow .info-block:last-child p:nth-child(1) {
+  font-size: 3.25rem;
+  letter-spacing: -2px;
+}
+
+.info-block + .info-block {
+  border-left-width: 0;
 }
 
 /*video*/
@@ -349,25 +358,36 @@ body {
   :root {
     font-size: 14px;
   }
-  .container{
+
+  .container {
     max-width: 994px;
   }
-  .info-block{
+
+  .info-block {
     font-size: 1.25rem;
   }
-  .info-block p:nth-child(1){
-    font-size: 5.25rem;
+
+  .info-block p:nth-child(1) {
+    font-size: 4.5rem;
   }
-  .killed-count{
+
+  .info_yellow .info-block:last-child p:nth-child(1) {
+    font-size: 3rem;
+  }
+
+  .killed-count {
     font-size: 2rem;
   }
-  .stopWar, .helpUs{
+
+  .stopWar, .helpUs {
     padding: 80px 0;
   }
-  .stopWar-title{
+
+  .stopWar-title {
     margin-bottom: 60px;
   }
-  .socials-title{
+
+  .socials-title {
     margin-top: 150px;
   }
 }
@@ -376,77 +396,101 @@ body {
   :root {
     font-size: 12px;
   }
-  .info-block{
+
+  .info-block {
     padding: 30px 15px;
   }
-  .killed-list{
+
+  .killed-list {
     grid-template-columns: repeat(auto-fill, minmax(calc((100% - 40px) / 2), 1fr));
     grid-gap: 40px;
   }
-  .stopWar-title{
+
+  .stopWar-title {
     font-size: 4rem;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .main{
+  .main {
     min-height: unset;
     padding: 50px 0;
   }
-  .info{
+
+  .main-title {
+    font-size: 2.75rem;
+  }
+
+  .info {
     flex-direction: column;
   }
-  .info-block{
+
+  .info-block {
     max-width: 100%;
   }
-  .info_red .info-block + .info-block{
+
+  .info_red .info-block + .info-block {
     border-left-width: 1px;
     border-top-width: 0;
   }
-  .info_yellow .info-block + .info-block{
+
+  .info_yellow .info-block + .info-block {
     border-left-width: 2px;
     border-top-width: 0;
   }
-  .main-date{
+
+  .main-date {
     margin-top: 20px;
   }
-  .killed-title{
+
+  .killed-title {
     font-size: 3rem;
   }
-  .killed-list{
+
+  .killed-list {
     grid-template-columns: 100%;
   }
-  .killed-item{
+
+  .killed-item {
     text-align: center;
   }
-  .killed-caption{
+
+  .killed-caption {
     margin-bottom: 10px;
   }
-  .killed-total{
+
+  .killed-total {
     min-height: unset;
     text-align: center;
     font-size: 1.5rem;
   }
-  .killed-total .text-blood{
-    font-size: 4.5rem;
+
+  .killed-total .text-blood {
+    font-size: 4rem;
   }
-  .killed{
+
+  .killed {
     padding: 20px 0 50px;
   }
-  .stopWar, .helpUs{
+
+  .stopWar, .helpUs {
     padding: 50px 0;
   }
-  .stopWar-title{
+
+  .stopWar-title {
     font-size: 3.25rem;
     margin-bottom: 50px;
   }
-  .helpUs-btns{
+
+  .helpUs-btns {
     flex-direction: column;
   }
-  .helpUs-btn{
+
+  .helpUs-btn {
     min-height: 80px;
   }
-  .socials-title{
+
+  .socials-title {
     margin-top: 100px;
   }
 }
