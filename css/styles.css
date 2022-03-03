@@ -298,6 +298,7 @@ body {
   font-weight: 900;
   color: #1E1E1E;
   grid-gap: 10px;
+  margin-bottom: 220px;
 }
 
 .helpUs-btn {
@@ -319,7 +320,7 @@ body {
 
 /* social block */
 .socials-title {
-  margin-top: 235px;
+  margin-top: 30px;
   font-weight: 500;
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -393,7 +394,7 @@ body {
   }
 
   .socials-title {
-    margin-top: 150px;
+    margin-top: 50px;
   }
 }
 
