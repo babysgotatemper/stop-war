@@ -258,7 +258,7 @@ body {
 /* stopWar */
 .stopWar {
   padding: 100px 0 120px;
-  background: #0085FF url('/img/footer-top.svg') bottom center no-repeat;
+  background: #0085FF url('./img/footer-top.svg') bottom center no-repeat;
 }
 
 .stopWar-title {
@@ -279,7 +279,7 @@ body {
 
 /* helpUs */
 .helpUs {
-  background: #FFD600 url('/img/footer-bottom.svg') top center no-repeat;
+  background: #FFD600 url('./img/footer-bottom.svg') top center no-repeat;
   padding: 130px 0 100px;
 }
 
@@ -340,22 +340,22 @@ body {
 }
 
 .social.tw {
-  background: url('/img/twitter.svg') center center no-repeat;
+  background: url('./img/twitter.svg') center center no-repeat;
   background-size: auto;
 }
 
 .social.in {
-  background: url('/img/instagram.svg') center center no-repeat;
+  background: url('./img/instagram.svg') center center no-repeat;
   background-size: auto;
 }
 
 .social.fb {
-  background: url('/img/facebook.svg') center center no-repeat;
+  background: url('./img/facebook.svg') center center no-repeat;
   background-size: auto;
 }
 
 .social.tt {
-  background: url('/img/tiktok.svg') center center no-repeat;
+  background: url('./img/tiktok.svg') center center no-repeat;
   background-size: auto;
 }
 
