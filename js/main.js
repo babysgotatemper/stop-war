@@ -1,1 +1,1 @@
-document.getElementById("currentDate").innerText = new Date().getDay();
+document.getElementById("currentDate").innerText = new Date().getDate();
