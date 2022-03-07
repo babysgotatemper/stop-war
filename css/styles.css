@@ -172,6 +172,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-top: 16px;
+  display: block;
 }
 
 /*killed*/
